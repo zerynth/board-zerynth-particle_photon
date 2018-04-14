@@ -1,5 +1,8 @@
 from base import *
 from devices import *
+from jtag import *
+import time
+import re
 
 class Photon(Board):
 
@@ -12,4 +15,6 @@ class Photon(Board):
 
     def burn(self,bin,outfn=None):
         return False,"Must be put in DFU mode first!"
+   
 
+    
