@@ -144,14 +144,13 @@ After virtualization, the Particle Photon is ready to be programmed and the  Zer
 Firmware Over the Air update (FOTA)
 ***********************************
 
-The Firmware Over the Air feature allows to update the device firmware at runtime. Zerynth FOTA in the Particle Photon device is available for bytecode and VM.
+The Firmware Over the Air feature allows to update the device firmware at runtime. Zerynth FOTA in the Particle Photon device is available for bytecode.
 
 Flash Layout is shown in table below:
 
 =============  =======  =================
 Start address  Size     Content
 =============  =======  =================
-  0x0800C000      80kb  VM Slot 1
   0x08020000     128Kb  VM Slot 0
   0x08040000     384kb  Bytecode Slot 0
   0x080A0000     384kb  Bytecode Slot 1
