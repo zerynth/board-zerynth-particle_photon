@@ -1,0 +1,14 @@
+---
+description: Add support for Particle Photon
+fullname: board.zerynth.particle_photon
+info:
+    board: Particle Photon
+    chip_manufacturer: ST Microelectronics
+    device: stm32f205
+    family_type: ARM Cortex M3
+keywords:
+- particle
+- board
+- wifi
+title: Particle Photon Support Package
+...
